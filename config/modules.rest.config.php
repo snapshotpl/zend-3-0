@@ -11,8 +11,10 @@
  * This should be an array of module namespaces used in the application.
  */
 return [
+    'Zend\I18n',
+    'Zend\ServiceManager\Di',
+    'Zend\Mvc\I18n',
     'Zend\Router',
-    'Zend\Validator',
     'Application',
-    'PhpBenchmarksZend\HelloWorld'
+    'PhpBenchmarksZend\RestApi'
 ];
