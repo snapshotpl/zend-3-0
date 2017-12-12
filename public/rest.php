@@ -7,3 +7,5 @@ chdir(dirname(__DIR__));
 include __DIR__ . '/../vendor/autoload.php';
 $appConfig = require __DIR__ . '/../config/application.rest.config.php';
 Application::init($appConfig)->run();
+
+// require phpbenchmarks stats.php here when needed
